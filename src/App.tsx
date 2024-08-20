@@ -8,13 +8,6 @@ function App() {
     "bg-[#549EF2]",
   ];
 
-  const gridStyle = [
-    "lg:row-span-2 self-center",
-    "",
-    "lg:row-span-2 self-center",
-    "",
-  ];
-
   return (
     <>
       <header className="mx-8 mb-16 mt-20 flex flex-col items-center">
@@ -33,7 +26,7 @@ function App() {
         {features.map((feature, index) => {
           return (
             <article
-              className={`h-[13.875rem] ${gridStyle[index]} flex flex-col bg-white rounded-lg shadow-feature overflow-hidden`}
+              className={`h-[13.875rem] flex flex-col bg-white rounded-lg shadow-feature overflow-hidden odd:lg:row-span-2 odd:self-center`}
               key={feature.name}
             >
               <div className={`h-1 ${bgStyle[index]}`}></div>
