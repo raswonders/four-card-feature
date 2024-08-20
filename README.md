@@ -6,13 +6,12 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -23,43 +22,40 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![](./screenshots/desktop.png)
+![](./screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://sensational-heliotrope-4dcaff.netlify.app/](https://sensational-heliotrope-4dcaff.netlify.app/)
 
 ## My process
+I created html skeleton with all the data. Then I applied mobile styles. After i extended styles in order to make it responsive. As last thing I've refactored tw classes a little bit and made features and banner separate components.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- [TS](https://www.typescriptlang.org/) - Typescript
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Tailwindcss](https://tailwindcss.com/) - CSS library 
 
 ### What I learned
 
+I rehashed some forgotten grid theory, also realized there is so many layouts I've never tried to create with grid. I've also had to add distinct tw classes dynamically to elements in a array, which was fun problem to deal with. 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+While learning about grid, I was mesmerized by sizing flexibility of grid items, i want to test its auto-sizing capabilities futher.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
+
+- Frontend Mentor - [@raswonders](https://www.frontendmentor.io/profile/raswonders)
+- Twitter - [@raswonders](https://www.twitter.com/raswonders)
+- LinkedIn - [Rastislav Hepner](https://www.linkedin.com/in/rastislavhepner/)
 
