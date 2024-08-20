@@ -20,7 +20,7 @@ export function Features() {
             <div className="p-7 flex flex-col justify-between grow">
               <header>
                 <h2 className="text-xl font-medium">{feature.name}</h2>
-                <p className="text-xs opacity-50 leading-relaxed">
+                <p className="text-xs opacity-50 leading-relaxed max-h-14 overflow-hidden">
                   {feature.description}
                 </p>
               </header>
