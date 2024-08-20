@@ -1,10 +1,10 @@
 import features from "../data/features";
 
-const bgStyle = [
-  "bg-[#44D3D2] ",
-  "bg-[#EA5454]",
-  "bg-[#FCAE4A]",
-  "bg-[#549EF2]",
+const borderColor = [
+  "border-[#44D3D2]",
+  "border-[#EA5454]",
+  "border-[#FCAE4A]",
+  "border-[#549EF2]",
 ];
 
 export function Features() {
@@ -16,8 +16,9 @@ export function Features() {
             className={`h-[13.875rem] flex flex-col bg-white rounded-lg shadow-feature overflow-hidden odd:lg:row-span-2 odd:self-center`}
             key={feature.name}
           >
-            <div className={`h-1 ${bgStyle[index]}`}></div>
-            <div className="p-7 flex flex-col justify-between grow">
+            <div
+              className={`p-7 flex flex-col justify-between grow border-t-[3px] ${borderColor[index]}`}
+            >
               <header>
                 <h2 className="text-xl font-medium">{feature.name}</h2>
                 <p className="text-xs opacity-50 leading-relaxed max-h-14 overflow-hidden">
