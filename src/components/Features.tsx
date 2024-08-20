@@ -19,7 +19,7 @@ export function Features() {
             <div className={`h-1 ${bgStyle[index]}`}></div>
             <div className="p-7 flex flex-col justify-between grow">
               <header>
-                <h1 className="text-xl font-medium">{feature.name}</h1>
+                <h2 className="text-xl font-medium">{feature.name}</h2>
                 <p className="text-xs opacity-50 leading-relaxed">
                   {feature.description}
                 </p>
