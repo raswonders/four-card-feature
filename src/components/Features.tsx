@@ -9,7 +9,7 @@ const bgStyle = [
 
 export function Features() {
   return (
-    <section className="max-w-[70rem] mx-8 lg:mx-auto grid gap-6 lg:gap-7 lg:grid-cols-3 lg:grid-rows-2">
+    <main className="max-w-[70rem] mx-8 lg:mx-auto grid gap-6 lg:gap-7 lg:grid-cols-3 lg:grid-rows-2">
       {features.map((feature, index) => {
         return (
           <article
@@ -34,6 +34,6 @@ export function Features() {
           </article>
         );
       })}
-    </section>
+    </main>
   );
 }
