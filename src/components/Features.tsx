@@ -25,7 +25,7 @@ export function Features() {
                 </p>
               </header>
               <img
-                width="57px"
+                width="57"
                 src={feature.icon_url}
                 alt=""
                 className="self-end"
