@@ -7,13 +7,20 @@ const borderColor = [
   "border-[#549EF2]",
 ];
 
+const gridStyle = [
+  "lg:row-span-2 lg:self-center",
+  "",
+  "",
+  "lg:row-span-2 lg:self-center lg:col-start-3 lg:row-start-1",
+];
+
 export function Features() {
   return (
     <main className="max-w-[70rem] mx-8 lg:mx-auto grid gap-6 lg:gap-7 lg:grid-cols-3 lg:grid-rows-2">
       {features.map((feature, index) => {
         return (
           <article
-            className={`h-[13.875rem] flex flex-col bg-white rounded-lg shadow-feature overflow-hidden odd:lg:row-span-2 odd:self-center`}
+            className={`h-[13.875rem] flex flex-col bg-white rounded-lg shadow-feature overflow-hidden ${gridStyle[index]}`}
             key={feature.name}
           >
             <div
